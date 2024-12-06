@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("https://8pybhfowwzc.typeform.com/to/FVk1CAnE")
+body {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bold;
+}
+
+
+.banner {
+    background-image: url('../images/background.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: left;
+    padding: 150px 40px;
+}
+
+.banner .container {
+    padding-left: 20px; 
+}
+
+.banner h1 {
+    font-size: 3rem;
+    margin: 0 0 20px;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    margin: 0 0 30px;
+}
+
+.banner .btn-blue {
+    margin-left: 20px; 
+}
+
+
+
+.container {
+    text-align: center;      
+    max-width: 1000px;     
+    padding: 20px;          
+}
+
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;         
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 250px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    padding: 15px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ddd;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #555;
+    padding: 0 10px;
+}
+
+.card .btn-blue {
+    display: inline-block;
+    background-color: #007bff;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.card .btn-blue:hover {
+    background-color: #0056b3;
+}
+
+
+
+.btn-blue {
+    background-color: #007bff;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;  
+    display: inline-block;
+}
+
+.btn-blue:hover {
+    background-color: #0056b3;
+}
+
+
+   
